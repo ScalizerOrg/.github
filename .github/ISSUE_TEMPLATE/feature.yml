@@ -10,10 +10,6 @@ body:
       description: id of task on Odoo
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this feature description
   - type: dropdown
     id: type
     attributes:
@@ -28,3 +24,8 @@ body:
         - View
         - Controller
         - Front view
+  - type: textarea
+    id: description
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature description
