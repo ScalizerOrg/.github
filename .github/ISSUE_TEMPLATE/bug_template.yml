@@ -1,8 +1,8 @@
 ---
-name: Feature
-description: Feature from Odoo story
-title: "[FEATURE]: "
-labels: [ "Feature", "From Odoo" ]
+name: Issue
+description: Issue
+title: "[ISSUE]: "
+labels: [ "Issue" ]
 assignees:
 body:
   - type: input
