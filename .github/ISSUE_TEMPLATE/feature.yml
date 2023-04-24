@@ -1,9 +1,7 @@
----
 name: Feature
 description: Feature from Odoo story
 title: "[FEATURE]: "
 labels: [ "Feature", "From Odoo" ]
-assignees:
 body:
   - type: input
     id: odoo_task_id
@@ -30,4 +28,3 @@ body:
         - View
         - Controller
         - Front view
----
