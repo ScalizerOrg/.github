@@ -1,0 +1,31 @@
+name: Feature
+description: Feature from Odoo story
+title: "[FEATURE]: "
+labels: [ "Feature", "From Odoo" ]
+assignees:
+body:
+  - type: input
+    id: odoo_task_id
+    attributes:
+      label: Odoo Task Id
+      description: id of task on Odoo
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature description
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of feature
+      multiple: true
+      options:
+        - Field
+        - Model
+        - Wizard
+        - Action
+        - PDF
+        - View
+        - Controller
+        - Front view
