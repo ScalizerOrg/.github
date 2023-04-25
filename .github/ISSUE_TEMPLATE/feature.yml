@@ -25,4 +25,8 @@ body:
         - Controller
         - Front view
   - type: textarea
-    id: description
+    attributes:
+      label: Description
+      description: Description
+    validations:
+      required: false
