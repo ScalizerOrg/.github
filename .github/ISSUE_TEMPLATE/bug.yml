@@ -17,27 +17,27 @@ body:
       description: External URL on other tracker
     validations:
       required: false
-- type: dropdown
-  id: env
-  attributes:
-    label: Environnement
-    multiple: true
-    options:
-      - Prod
-      - Staging
-      - Local
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Description
-    description: Description
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Error
-    description: Error message or traceback
-    render: shell
-  validations:
-    required: true
+  - type: dropdown
+    id: env
+    attributes:
+      label: Environnement
+      multiple: true
+      options:
+        - Prod
+        - Staging
+        - Local
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Description
+      description: Description
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Error
+      description: Error message or traceback
+      render: shell
+    validations:
+      required: true
