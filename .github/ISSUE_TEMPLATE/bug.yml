@@ -1,8 +1,22 @@
 name: Bug
-description: File a bug/issue
+description: bug/issue
 title: "[BUG] <title>"
-labels: [Bug, Needs Triage]
+labels: ["Bug"]
 body:
+  - type: input
+    id: odoo_task_id
+    attributes:
+      label: Odoo Task Id
+      description: id of task on Odoo
+    validations:
+      required: false
+  - type: input
+    id: external_url
+    attributes:
+      label: External URL
+      description: External URL on other tracker
+    validations:
+      required: false
 - type: dropdown
   id: env
   attributes:
