@@ -1,7 +1,7 @@
 name: Feature
 description: Add Feature
 title: "[FEATURE] <title>"
-labels: ["Feature"]
+labels: ["enhancement"]
 body:
   - type: input
     id: odoo_task_id
