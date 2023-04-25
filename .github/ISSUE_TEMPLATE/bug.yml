@@ -10,7 +10,7 @@ body:
       description: id of task on Odoo
     validations:
       required: false
-  - type: input
+  - type: textarea
     id: external_url
     attributes:
       label: External URL
