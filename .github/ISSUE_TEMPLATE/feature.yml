@@ -24,9 +24,49 @@ body:
         - View
         - Controller
         - Front view
+  - type: input
+    attributes:
+      label: Module
+      description: Work module
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Model
+      description: Model to create or modify
+    validations:
+      required: false
+  - type: dropdown
+    id: option
+    attributes:
+      label: Type of developpement
+      multiple: true
+      options:
+        - Field
+        - Constraint
+        - Menu
+        - View Form
+        - View Tree
+        - View Search
+        - View Other
+        - Wizard Button
+        - Wizard Multi
+        - Wizard Menu
+        - Hook
+        - Onchange
+        - Access
+        - Rule
+        - Other
   - type: textarea
     attributes:
       label: Description
       description: Description
     validations:
       required: false
+  - type: textarea
+    attributes:
+      label: Tests
+      description: Tests
+    validations:
+      required: false
+
