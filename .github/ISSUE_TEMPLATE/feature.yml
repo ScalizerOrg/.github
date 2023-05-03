@@ -23,14 +23,9 @@ body:
       label: Type of feature
       multiple: true
       options:
-        - Field
-        - Model
-        - Wizard
-        - Action
-        - PDF
-        - View
-        - Controller
-        - Front view
+        - Configurator
+        - Specific Module
+        - Generic Module
   - type: input
     attributes:
       label: Module
@@ -51,6 +46,7 @@ body:
       options:
         - Field
         - Constraint
+        - Model
         - Menu
         - View Form
         - View Tree
@@ -59,10 +55,14 @@ body:
         - Wizard Button
         - Wizard Multi
         - Wizard Menu
+        - Action
         - Hook
         - Onchange
         - Access
         - Rule
+        - PDF
+        - Controller
+        - Front View
         - Other
   - type: textarea
     attributes:
