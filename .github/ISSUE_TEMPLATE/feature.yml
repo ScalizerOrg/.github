@@ -10,6 +10,13 @@ body:
       description: id of task on Odoo
     validations:
       required: false
+  - type: input
+    id: odoo_helpdesk_id
+    attributes:
+      label: Odoo Helpdesk Id
+      description: id of helpdesk ticket on Odoo
+    validations:
+      required: false
   - type: textarea
     id: external_url
     attributes:
