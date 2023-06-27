@@ -51,6 +51,7 @@ body:
         - View Form
         - View Tree
         - View Search
+        - View Kanban
         - View Other
         - Wizard Button
         - Wizard Multi
