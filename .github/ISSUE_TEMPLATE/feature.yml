@@ -35,6 +35,12 @@ body:
         - Generic Module
   - type: input
     attributes:
+      label: Repo (Generic)
+      description: Repo (Generic)
+    validations:
+      required: false
+  - type: input
+    attributes:
       label: Module
       description: Work module
     validations:
